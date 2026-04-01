@@ -17,4 +17,7 @@
   
 
 - 回滚
-  - `git reset --mixed <commit id>`  回滚到指定版本，此时缓冲区也重置了，但是保存该版本的修改
+  - `git reset --mixed <commit id>`  回滚到指定版本，此时缓冲区也重置了，但是保存该版本的修改。mixed是默认模式。
+  
+  - `git reset --hard <commit id>` 回滚到指定版本，保留缓冲区。
+  - `git reset --hard <commit id>` 回滚到指定版本，不保留该版本的的修改。
