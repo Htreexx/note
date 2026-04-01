@@ -16,3 +16,5 @@
 
   
 
+- 回滚
+  - `git reset --mixed <commit id>`  回滚到指定版本，此时缓冲区也重置了
