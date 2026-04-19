@@ -21,3 +21,7 @@
   
   - `git reset --soft <commit id>` 回滚到指定版本，保留缓冲区。
   - `git reset --hard <commit id>` 回滚到指定版本，不保留该版本的的修改。
+
+- 分支
+  - `git branch` 查看当前所在的分支
+  - `git checkout -b <分支名>` 创建分支，并切换到该分支
